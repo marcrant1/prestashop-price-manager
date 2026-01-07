@@ -1,0 +1,11 @@
+# PrestaShop Price Manager - Dependencies
+
+# Data processing
+pandas>=1.3.0
+openpyxl>=3.0.0
+
+# HTTP requests
+requests>=2.25.0
+
+# GUI (included in Python standard library, but listed for documentation)
+# tkinter - usually pre-installed with Python

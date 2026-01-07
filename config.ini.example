@@ -1,0 +1,42 @@
+# PrestaShop Price Manager - Configuration
+# Copiez ce fichier en config.ini et modifiez les valeurs
+
+[prestashop]
+# URL de votre boutique PrestaShop (sans /api à la fin)
+shop_url = https://www.votre-boutique.com
+
+# Clé API WebService PrestaShop
+# Créez-la dans: Paramètres avancés → Webservice → Ajouter une clé
+# Permissions requises: products (GET, PUT), product_suppliers (GET)
+api_key = VOTRE_CLE_API_ICI
+
+# ID du fournisseur dans PrestaShop (optionnel)
+# Trouvez-le dans: Catalogue → Fournisseurs → cliquez sur le fournisseur → ID dans l'URL
+supplier_id = 
+
+[settings]
+# Marge par défaut en pourcentage (ex: 12.0 = 12%)
+default_margin = 12.0
+
+[excel]
+# Noms des colonnes dans votre fichier Excel fournisseur
+# Adaptez selon la structure de votre fichier
+
+# Colonne contenant la référence fournisseur (SKU)
+col_sku = Internal Article No.
+
+# Colonne contenant la référence article (optionnel)
+col_article = Article No.
+
+# Colonne contenant le prix d'achat
+col_price = Price
+
+# Colonne contenant le fabricant (optionnel)
+col_manufacturer = Manufacturer
+
+# Colonne contenant la disponibilité (optionnel)
+# Valeur attendue: "Available" pour disponible
+col_availability = Availability
+
+# Colonne contenant le groupe de produits (optionnel)
+col_group = Productgroup
