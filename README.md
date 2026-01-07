@@ -140,8 +140,8 @@ Exemple de structure supportée :
 
 | Internal Article No. | Article No. | Description | Manufacturer | Price | Availability | Productgroup |
 |---------------------|-------------|-------------|--------------|-------|--------------|--------------|
-| 601032 | PCW08B | Widget Pro | ACME | 12.50 | Available | Electronics |
-| 601033 | PCW09C | Gadget Plus | ACME | 8.75 | Not available | Electronics |
+| 001112 | lala5  | Widget Pro | jim   | 12.50 | Available     | Toy         |
+| 001133 | blala1 | Gadget Plus| jones | 8.75  | Not available | Toy         |
 
 ## 📝 Logs
 
