@@ -159,10 +159,9 @@ Exemple de log :
 === Mise à jour prix 2024-01-04 14:30 ===
 Produits: 150, Marge: 15%
 
-✅ 601032: 14.375€
-✅ 601033: 10.063€
-⏭️ 601034: Non trouvé dans PrestaShop
-❌ 601035: Erreur 500
+✅ REF001: achat=12.500€ → vente=14.375€
+⏭️ REF002: Non trouvé dans PrestaShop
+❌ REF003: Erreur 500
 ```
 
 ## 🐛 Dépannage
@@ -206,4 +205,4 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 
 ---
 
-**BiF Electronic** - Distribution de composants électroniques et équipements médicaux
+*Développé avec l'aide de Claude (Anthropic)*
